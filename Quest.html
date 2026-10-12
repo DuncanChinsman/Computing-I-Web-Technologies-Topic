@@ -3,18 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questionare</title>
+    <title>Find Your Personal Style</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <nav class="navbar">
+    <nav class="navbar">
         <div class="logo">
             <h1>Fashion Hub</h1>
         </div>
         <ul class="nav-links">
             <li><a href="S11.html">Home</a></li>
-            <li><a href="Quest.html">Quiz</a></li>
+            <li><a href="Quest.html">Style Quiz</a></li>
         </ul>
-    </nav> 
+    </nav>
+
+    <main class="quiz">
+        <div class="quiz-box">
+            <h1>Find Your Personal Style</h1>
+            <p>Discover the fashion aesthetic that matches your lifestyle.</p>
+
+            <div class="question">
+                <h2>1. What does your ideal day look like?</h2>
+                    <label>
+                        <input type="radio" name="q1" value="athleisure">
+                        Hitting the gym, staying active and running errands
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="casualChic">
+                        Meeting friends, exploring the city and trying new cafés
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="quietLuxury">
+                        Shopping at designer boutiques and enjoying luxury experiences
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="corporateChic">
+                        Working in a corporate environment and building my career
+                    </label>
+                <label>
+                    <input type="radio" name="q1" value="athleisure">
+                    Hitting the gym, staying active and running errands
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="casualChic">
+                    Meeting friends, exploring the city and trying new cafés
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="quietLuxury">
+                    Shopping at designer boutiques and enjoying luxury experiences
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="corporateChic">
+                    Working in a corporate environment and building my career
+                </label>
+            </div>
+
+            <div class="question">
+                <h2>2. Where would you most likely spend your free time?</h2>
+                <label>
+                    <input type="radio" name="q2" value="athleisure">
+                    At the gym, on a run or doing outdoor activities
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="casualChic">
+                    On a yoga date, a coffee run or a bookstore visit
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="quietLuxury">
+                    In high-end shopping districts or luxury restaurants
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="corporateChic">
+                    At networking events, work meetings or professional events
+                </label>
+            </div>
+
+            <div class="question">
+                <h2>3. What matters most when choosing an outfit?</h2>
+                <label>
+                    <input type="radio" name="q3" value="athleisure">
+                    Comfort, flexibility and looking sporty
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="casualChic">
+                    Effortless, relaxed outfits with a touch of personality
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="quietLuxury">
+                    Premium quality, timeless pieces and understated luxury
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="corporateChic">
+                    Looking polished, professional and well put together
+                </label>
+            </div>
+
+            <div class="question">
+                <h2>4. Which shopping experience sounds most like you?</h2>
+                <label>
+                    <input type="radio" name="q4" value="athleisure">
+                    Buying matching gym sets, trainers and functional basics
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="casualChic">
+                    Browsing independent brands, vintage shops and streetwear
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="quietLuxury">
+                    Investing in designer bags, premium clothing and quality accessories
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="corporateChic">
+                    Shopping for tailored trousers, blazers and smart essentials
+                </label>
+            </div>
+
+            <div class="question">
+                <h2>5. How do you want people to perceive your style?</h2>
+                <label>
+                    <input type="radio" name="q5" value="athleisure">
+                    Sporty, confident and energetic
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="casualChic">
+                    Creative, relaxed and effortlessly cool
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="quietLuxury">
+                    Sophisticated, exclusive and luxurious
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="corporateChic">
+                    Elegant, ambitious and professional
+                </label>
+            </div>
+
+            <button id="submitBtn" type="button">
+                Find My Style
+            </button>
+        </div>
+    </main>
+
+    <script src="questscript.js"></script>
 </body>
 </html>
+

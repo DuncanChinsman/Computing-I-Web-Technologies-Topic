@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Style</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="quiz">
+        <div class="quiz-box">
+            <h1>Your Personal Style</h1>
+            <div id="fashionResult"></div>
+        </div>
+    </main>
+
+    <script>
+        const fashionStyle = localStorage.getItem("fashionStyle");
+        const description = localStorage.getItem("description");
+
+        const fashionResult = document.getElementById("fashionResult");
+
+        fashionResult.innerHTML =
+            "<h2>" + fashionStyle + "</h2>" +
+            "<p>" + description + "</p>";
+    </script>
+
+    <button onclick="window.location.href='Quest.html'">
+        Take the Quiz Again
+    </button>
+</body>
+
+</html>

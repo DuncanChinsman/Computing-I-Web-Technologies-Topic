@@ -10,7 +10,7 @@ body{
     /*line-height: 1.6;
     /*width: min(900px, calc(100% - 48px));
     /*margin: 48px auto; */
-   
+
 }
 
 nav {
@@ -76,12 +76,11 @@ img {
 .carousel {
     margin: 100px auto;
     width: 90%;
-    border: 5px solid #334155;
-    display: flex;
-    overflow-x: auto; 
     
+    display: flex;
+    overflow-x: auto;   
 }
-carousel::-webkit-scrollbar {
+.carousel::-webkit-scrollbar {
     display: none; 
 }
 .group {
@@ -89,20 +88,20 @@ carousel::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     gap: 1em;
-    animation: spin 5s linear infinite;
+    animation: spin 10s infinite linear;
     padding-right: 1em; 
-}
+} 
 .card{
     flex: 0 0 5em; 
     height: 5em;
     padding: 1em;
-    background-color: #0f114e;
+    background-color: #071240;
     font-size: 3rem;
     border-radius: .2em;
     text-align: center;
     align-content: center;
 }
 @keyframes spin{
-    from {translate:0;}
+    from {translate: 0;}
     to {translate: -100%;} 
 }
